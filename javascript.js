@@ -11,8 +11,12 @@ function getComputerChoice() {
 }
 
 function getHumanChoice() {
-    return prompt('Rock, paper, or scissors: ');
+    return prompt('Rock, paper, or scissors: ').toUpperCase();
 }
 
 let computerScore = 0;
 let humanScore = 0;
+
+function playRound(computer, human) {
+
+}
