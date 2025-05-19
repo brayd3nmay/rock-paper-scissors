@@ -2,11 +2,11 @@ let computerScore = 0;
 let humanScore = 0;
 
 function getComputerChoice() {
-    let randNum = Math.random();
+    let randNum = Math.floor(Math.random() * 3);
 
-    if(randNum < 0.3) {
+    if(randNum == 0) {
         return 'ROCK';
-    } else if (randNum < 0.6) {
+    } else if (randNum == 1) {
         return 'PAPER';
     } else {
         return 'SCISSORS';
