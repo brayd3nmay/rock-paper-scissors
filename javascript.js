@@ -2,11 +2,11 @@ function getComputerChoice() {
     let randNum = Math.random();
 
     if(randNum < 0.3) {
-        return 'Rock';
+        return 'ROCK';
     } else if (randNum < 0.6) {
-        return 'Paper';
+        return 'PAPER';
     } else {
-        return 'Scissors';
+        return 'SCISSORS';
     }
 }
 
@@ -18,5 +18,5 @@ let computerScore = 0;
 let humanScore = 0;
 
 function playRound(computer, human) {
-
+    if(computer)
 }
