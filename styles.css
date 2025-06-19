@@ -1,15 +1,12 @@
-h1, h2 {
+body {
     font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
     font-size: 75px;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 #scoreboard {
@@ -25,4 +22,14 @@ button {
     border: none;
     margin: 5px;
     border-radius: 15px;
+}
+
+#buttons {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#choices {
+    display: flex;
+    gap: 20px;
 }

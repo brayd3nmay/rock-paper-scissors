@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-    <script src="javascript.js"></script>
+    <script src="javascript.js" defer></script>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,13 +13,18 @@
 <body>
     <h1>Rock Paper Scissors</h1>
     <div id="scoreboard">
-        <h2>🧟‍♂️ Your score: 0</h2>
-        <h2>🤖 Computer score: 0</h2>
+        <h2 id="humanScore">🧟‍♂️ Your score: 0</h2>
+        <h2 id="computerScore">🤖 Computer score: 0</h2>
     </div>
-    <div>
-        <button>🪨</button>
-        <button>🗒️</button>
-        <button>✂️</button>
+    <div id="buttons">
+        <button id="rock">🪨</button>
+        <button id="paper">🗒️</button>
+        <button id="scissors">✂️</button>
     </div>
+    <div id="choices">
+        <h2 id="humanChoice">Pick Rock, Paper, or Scissors to start the game!</h2>
+        <h2 id="computerChoice"></h2>
+    </div>
+    <h2 id="roundStatus">First to 5 wins!</h2>
 </body>
 </html>
