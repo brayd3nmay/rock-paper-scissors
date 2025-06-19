@@ -1,0 +1,28 @@
+h1, h2 {
+    font-family: "Roboto";
+}
+
+h1 {
+    font-size: 75px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#scoreboard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+button {
+    font-size: 75px;
+    border: none;
+    margin: 5px;
+    border-radius: 15px;
+}
